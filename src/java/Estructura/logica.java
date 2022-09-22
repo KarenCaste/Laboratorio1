@@ -16,7 +16,7 @@ import java.time.format.DateTimeFormatter;
  */
 public class logica {
     
-     public String Nombre;
+     public String nombre;
     public String fechaNacimiento;
     public String edad;
     int hora = LocalDateTime.now().getHour();
@@ -25,11 +25,11 @@ public class logica {
     }
 
     public String getNombre() {
-        return Nombre;
+        return nombre;
     }
 
     public void setNombre(String name) {
-        this.Nombre = name;
+        this.nombre = name;
     }
 
     public String getFechaNacimiento() {
